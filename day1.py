@@ -15,10 +15,8 @@ for i in f:
   currently_zero = num == 0
   forward = True
   if (i[:1] == 'L'):
-    lcounter += 1
     forward = False
   else:
-    rcounter += 1
   amount = int(i[1:])
   if (forward):
     num += amount
